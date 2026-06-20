@@ -106,8 +106,8 @@ async function generateCards() {
   const avoidBlock =
     seenFronts.length > 0
       ? `\n\nDo NOT repeat or closely rephrase any of these already-used flashcard fronts:\n${seenFronts
-          .map((f) => `- ${f}`)
-          .join("\n")}\n\nCover different facts, terms, or angles from the text instead.`
+        .map((f) => `- ${f}`)
+        .join("\n")}\n\nCover different facts, terms, or angles from the text instead.`
       : "";
 
   try {
@@ -131,8 +131,11 @@ ${sourceText.value}`,
     });
 
     const data = await response.json();
+    console.log("Full Gemini response:", data);
     const raw = data.candidates[0].content.parts.map((p) => p.text || "").join("").trim();
+    console.log("Raw text from Gemini:", raw);
     const cleaned = raw.replace(/^```json\s*|^```\s*|```\s*$/g, "").trim();
+    console.log("Cleaned text:", cleaned);
     const cards = JSON.parse(cleaned);
 
     if (!Array.isArray(cards) || cards.length === 0) {
