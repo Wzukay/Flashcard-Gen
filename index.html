@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Flashcard Generator</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flashcard Generator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
- 
+
   <div class="page">
     <header class="intro">
       <p class="eyebrow">Paste · Generate · Study</p>
@@ -19,40 +23,62 @@
         cards built from what's actually in it.
       </p>
     </header>
- 
+
+    <!-- Inside <div class="page">, right before <header class="intro"> -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+      <!-- Sun Icon (Visible in Dark Mode) -->
+      <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="4"></circle>
+        <path
+          d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41">
+        </path>
+      </svg>
+      <!-- Moon Icon (Visible in Light Mode) -->
+      <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+      </svg>
+    </button>
+
     <div class="input-row">
       <section class="input-block">
         <label for="source-text" id="word-count-label">YOUR TEXT (0 words — need 50+)</label>
-        <textarea
-          id="source-text"
-          rows="10"
-          placeholder="Paste a passage, article, or chapter here (400+ words works best)…"
-        ></textarea>
- 
+        <textarea id="source-text" rows="10"
+          placeholder="Paste a passage, article, or chapter here (400+ words works best)…"></textarea>
+
         <div class="controls">
           <button id="generate-btn" disabled>
-            <svg id="btn-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M3 12h18" stroke-linecap="round"/></svg>
+            <svg id="btn-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <path d="M12 3v18M3 12h18" stroke-linecap="round" />
+            </svg>
             <span id="btn-label">Generate cards</span>
           </button>
           <button id="reset-btn" class="secondary-btn" hidden>Start over</button>
           <span id="status-text" class="status-text"></span>
         </div>
- 
+
         <div id="error-box" class="error-box" hidden>
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10" />
+            <line x1="12" y1="8" x2="12" y2="12" />
+            <line x1="12" y1="16" x2="12.01" y2="16" />
+          </svg>
           <span id="error-message"></span>
         </div>
       </section>
- 
+
       <aside class="presets-panel">
         <p class="presets-heading">SAVED TEXTS</p>
         <ul id="presets-list" class="presets-list"></ul>
       </aside>
     </div>
- 
+
     <section id="cards-grid" class="cards-grid"></section>
   </div>
 
   <script type="module" src="js/script.js"></script>
 </body>
+
 </html>

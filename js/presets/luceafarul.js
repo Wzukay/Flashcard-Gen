@@ -1,8 +1,7 @@
 
-export const PRESET_TEXTS = [
-  {
-    title: "Luceafărul - context și analiză",
-    text: `Poemul Luceafărul a apărut în 1883, în Almanahul Societăţii Academice Social-Literare România Jună din Viena, fiind apoi reprodus în revista Convorbiri literare.
+export default {
+        title: "Luceafărul - context și analiză",
+        text: `Poemul Luceafărul a apărut în 1883, în Almanahul Societăţii Academice Social-Literare România Jună din Viena, fiind apoi reprodus în revista Convorbiri literare.
  
 Poemul este inspirat din basmul românesc Fata în grădina de aur, cules de austriacul Richard Kunisch. Basmul cuprindea povestea unei frumoase fete de împărat izolată de tatăl ei într-un castel, de care se îndrăgosteşte un zmeu. Fata însă se sperie de nemurirea zmeului şi-l respinge. Zmeul merge la Demiurg, doreşte să fie dezlegat de nemurire, dar este refuzat. Întors pe pământ, zmeul o vede pe fată, care între timp se îndrăgostise de un pământean, un fecior de împărat, cu care fugise în lume. Furios, zmeul se răzbună pe ei şi îi desparte prin vicleşug. Peste fată el prăvăleşte o stâncă, iar pe feciorul de împărat îl lasă să moară în Valea Amintirii.
  
@@ -81,5 +80,5 @@ Nivelul morfologic: dativul etic şi dativul posesiv susţin tonul de intimitate
 Nivelul stilistic: antiteza structurală; alegoria pe baza căreia este construit poemul; epitete ornante: „Uşor el trece ca pe prag"; prezenţa metaforelor, mai ales în primul tablou, în cadrul dialogului dintre Luceafăr şi fata de împărat, accentuează ideea iubirii absolute ce se cere eternizată într-un cadru pe măsură: „palate de mărgean", „cununi de stele"; metafore sinestezice în cadrul primului tablou: „Şi ochii mari şi grei mă dor,/ Privirea ta mă arde"; imagini hiperbolice în portretizarea Luceafărului: „Venea plutind în adevăr/ Scăldat în foc de soare"; metonimii utilizate în pasaje cu sens aforistic, în discursul Demiurgului: „Îţi dau catarg lângă catarg/ Oştiri spre a străbate"; comparaţii construite prin asocierea unor termeni abstracţi, în prezentarea călătoriei Luceafărului în spaţiul cosmic: „E un adânc asemenea/ Uitării celei oarbe"; antiteza între omul de geniu şi oamenii comuni, antiteză pe baza căreia îşi construieşte discursul Demiurgul: „Ei doar au stele cu noroc/ Şi prigoniri de soarte,/ Noi nu avem nici timp, nici loc,/ Şi nu cunoaştem moarte"; oximoronul ce ia un aspect apropiat de antiteză: „Ţesând cu recile-i scântei/ O mreajă de văpaie".
  
 CONCLUZIA: Pentru ilustrarea condiţiei geniului, poemul Luceafărul - sinteză a operei poetice eminesciene - armonizează atât teme, motive, elemente de imaginar poetic, atitudini romantice, procedee artistice cultivate de scriitor, cât şi simbolurile eternităţii/morţii şi ale temporalităţii/vieţii.`,
-  },
-];
+
+}

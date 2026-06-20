@@ -2,11 +2,43 @@
   box-sizing: border-box;
 }
 
+:root {
+  --bg-color: #FAF8F4;
+  --text-color: #1C1B19;
+  --text-muted: #6B6862;
+  --text-dim: #9A958A;
+  --border-color: #DDD7C7;
+  --panel-bg: #FFFFFF;
+  --accent-color: #E0533D;
+  
+  /* Flashcard Specific Colors (Keeps index card aesthetic) */
+  --card-bg: #FFF9E8;
+  --card-border: #E8E2CC;
+  --card-text: #1C1B19;
+  --card-punch-bg: #FAF8F4;
+}
+
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #E0E0E0;
+  --text-muted: #A09E9A;
+  --text-dim: #706E6A;
+  --border-color: #2D2C2A;
+  --panel-bg: #1A1A19;
+  
+  /* Night-mode friendly Flashcard colors */
+  --card-bg: #1E1C16;
+  --card-border: #2E2A22;
+  --card-text: #E0DCD0;
+  --card-punch-bg: #121212;
+}
+
 body {
   margin: 0;
-  background: #FAF8F4;
-  color: #1C1B19;
+  background: var(--bg-color);
+  color: var(--text-color);
   font-family: 'Inter', system-ui, sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 .label-font,
@@ -19,9 +51,41 @@ h1,
 }
 
 .page {
+  position: relative; /* Context for absolute button positioning */
   max-width: 880px;
   margin: 0 auto;
   padding: 56px 24px 80px;
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 48px;
+  right: 24px;
+  background: var(--panel-bg);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.theme-toggle:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+[data-theme="dark"] .moon-icon { display: none; }
+[data-theme="dark"] .sun-icon { display: block; }
+:root:not([data-theme="dark"]) .sun-icon { display: none; }
+:root:not([data-theme="dark"]) .moon-icon { display: block; }
+
+.subtext, #word-count-label, .status-text, .flip-hint, .card-tag {
+  color: var(--text-muted);
 }
 
 .intro {
@@ -44,7 +108,6 @@ h1 {
 }
 
 .subtext {
-  color: #6B6862;
   margin-top: 12px;
   font-size: 15px;
   max-width: 520px;
@@ -52,7 +115,6 @@ h1 {
 
 #word-count-label {
   font-size: 12px;
-  color: #6B6862;
   display: block;
   margin-bottom: 8px;
 }
@@ -63,9 +125,9 @@ textarea {
   font-size: 15px;
   line-height: 1.6;
   border-radius: 6px;
-  border: 1px solid #DDD7C7;
-  background: #FFFFFF;
-  color: #1C1B19;
+  border: 1px solid var(--border-color);
+  background: var(--panel-bg);
+  color: var(--text-color);
   resize: vertical;
   font-family: 'Inter', system-ui, sans-serif;
 }
@@ -91,8 +153,8 @@ button:focus-visible {
   font-size: 13px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  background: #1C1B19;
-  color: #FFF9E8;
+  background: var(--text-color);
+  color: var(--bg-color);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -100,8 +162,8 @@ button:focus-visible {
 }
 
 #generate-btn:disabled {
-  background: #DDD7C7;
-  color: #9A958A;
+  background: var(--border-color);
+  color: var(--text-dim);
   cursor: not-allowed;
 }
 
@@ -114,8 +176,8 @@ button:focus-visible {
   font-size: 13px;
   font-family: 'Inter', system-ui, sans-serif;
   background: transparent;
-  color: #6B6862;
-  border: 1px solid #DDD7C7;
+  color: var(--text-muted);
+  border: 1px solid var(--border-color);
   border-radius: 5px;
   cursor: pointer;
   transition: border-color 0.15s, color 0.15s;
@@ -128,7 +190,6 @@ button:focus-visible {
 
 .status-text {
   font-size: 13px;
-  color: #6B6862;
 }
 
 .error-box {
@@ -156,9 +217,9 @@ button:focus-visible {
 .presets-panel {
   width: 220px;
   flex-shrink: 0;
-  border: 1px solid #DDD7C7;
   border-radius: 6px;
-  background: #FFFFFF;
+  border: 1px solid var(--border-color);
+  background: var(--panel-bg);
   padding: 16px;
   max-height: 340px;
   overflow-y: auto;
@@ -168,7 +229,7 @@ button:focus-visible {
   font-family: 'Courier Prime', monospace;
   font-size: 11px;
   letter-spacing: 0.08em;
-  color: #9A958A;
+  color: var(--text-dim);
   margin: 0 0 12px 0;
 }
 
@@ -189,7 +250,7 @@ button:focus-visible {
   padding: 8px 10px;
   font-family: 'Inter', system-ui, sans-serif;
   font-size: 13.5px;
-  color: #1C1B19;
+  color: var(--text-color);
   border-radius: 4px;
   cursor: pointer;
   transition: background 0.12s, color 0.12s;
@@ -198,8 +259,8 @@ button:focus-visible {
 
 .preset-item button:hover,
 .preset-item button:focus-visible {
-  background: #FFF9E8;
-  color: #E0533D;
+  background: var(--card-bg);
+  color: var(--accent-color);
 }
 
 .presets-empty {
@@ -250,9 +311,9 @@ button:focus-visible {
   padding: 28px 24px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 1px 2px rgba(28,27,25,0.06), 0 4px 10px rgba(28,27,25,0.07);
-  background: #FFF9E8;
-  border: 1px solid #E8E2CC;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.06), 0 4px 10px rgba(0,0,0,0.07);
 }
 
 .card-back {
@@ -286,13 +347,12 @@ button:focus-visible {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #FAF8F4;
-  border: 1px solid #E8E2CC;
+  background: var(--card-punch-bg);
+  border: 1px solid var(--card-border);
 }
 
 .card-tag {
   font-size: 10px;
-  color: #9A958A;
   margin-top: 16px;
   margin-bottom: 0;
 }
@@ -309,13 +369,12 @@ button:focus-visible {
   font-size: 15px;
   margin-top: 18px;
   line-height: 1.55;
-  color: #1C1B19;
+  color: var(--card-text);
   flex: 1;
 }
 
 .flip-hint {
   font-size: 11px;
-  color: #9A958A;
   margin: 0;
   display: flex;
   align-items: center;

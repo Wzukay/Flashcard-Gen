@@ -1,5 +1,11 @@
 
-import { PRESET_TEXTS } from "./presets.js";
+import { PRESET_FILES } from "./presets/manifest.js";
+
+const modules = await Promise.all(
+  PRESET_FILES.map((name) => import(`./presets/${name}.js`))
+);
+
+export const PRESET_TEXTS = modules.map((m) => m.default);
 
 const WORKER_URL = "https://flashcard-proxy.flashcard-gen.workers.dev";
 
@@ -14,6 +20,7 @@ const errorMessage = document.getElementById("error-message");
 const cardsGrid = document.getElementById("cards-grid");
 const resetBtn = document.getElementById("reset-btn");
 const presetsList = document.getElementById("presets-list");
+const themeToggleBtn = document.getElementById("theme-toggle");
 
 const MIN_WORDS = 50;
 
@@ -235,6 +242,28 @@ function loadPreset(preset) {
   updateWordCount();
   sourceText.focus();
 }
+
+const savedTheme = localStorage.getItem("theme");
+const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+if (savedTheme === "dark" || (!savedTheme && systemPrefersDark)) {
+  document.documentElement.setAttribute("data-theme", "dark");
+} else {
+  document.documentElement.setAttribute("data-theme", "light");
+}
+
+// Toggle logic
+themeToggleBtn.addEventListener("click", () => {
+  const currentTheme = document.documentElement.getAttribute("data-theme");
+  let newTheme = "light";
+
+  if (currentTheme === "light") {
+    newTheme = "dark";
+  }
+
+  document.documentElement.setAttribute("data-theme", newTheme);
+  localStorage.setItem("theme", newTheme);
+});
 
 generateBtn.addEventListener("click", generateCards);
 resetBtn.addEventListener("click", resetCards);
