@@ -1,6 +1,6 @@
 
 export default {
-        title: "Luceafărul - context și analiză",
+        title: "Luceafărul - Mihai Eminescu",
         text: `Poemul Luceafărul a apărut în 1883, în Almanahul Societăţii Academice Social-Literare România Jună din Viena, fiind apoi reprodus în revista Convorbiri literare.
  
 Poemul este inspirat din basmul românesc Fata în grădina de aur, cules de austriacul Richard Kunisch. Basmul cuprindea povestea unei frumoase fete de împărat izolată de tatăl ei într-un castel, de care se îndrăgosteşte un zmeu. Fata însă se sperie de nemurirea zmeului şi-l respinge. Zmeul merge la Demiurg, doreşte să fie dezlegat de nemurire, dar este refuzat. Întors pe pământ, zmeul o vede pe fată, care între timp se îndrăgostise de un pământean, un fecior de împărat, cu care fugise în lume. Furios, zmeul se răzbună pe ei şi îi desparte prin vicleşug. Peste fată el prăvăleşte o stâncă, iar pe feciorul de împărat îl lasă să moară în Valea Amintirii.

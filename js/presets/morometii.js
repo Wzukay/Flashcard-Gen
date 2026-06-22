@@ -1,0 +1,94 @@
+export default {
+    title: "Morometii - Marin Preda",
+    text: `## Geneza și structura romanului
+Romanul Moromeţii ia naştere în urma unui îndelung proces de elaborare. Volumul întâi cunoaşte o primă elaborare în 1949, apoi este reluat în anul 1955, când va vedea şi lumina tiparului. Volumul al doilea apare doar în 1967 deşi fusese început în 1953. 
+
+Cea mai importantă temă a prozei lui Marin Preda este dispariţia ţărănimii tradiţionale. Dar, alături de această problemă, autorul tratează şi tema istoriei, a timpului „care nu mai avea răbdare”, care trece fără a ţine cont de dorinţa oamenilor şi care aduce cu el schimbări radicale şi neaşteptate. 
+
+Titlul Moromeţii aşează tema familie în centrul romanului, însă evoluţia şi criza familiei sunt simbolice pentru transformările din satul românesc.
+
+---
+
+## Perspectiva narativă și tehnica compozițională
+Perspectiva naratorului obiectiv se ompletează prin aceea a reflectorilor: în primul volum rolul de personaj-reflector îi aparţine lui Ilie Moromete, iar în al doilea volum lui Niculae. De asemenea, există şi personaje-informatori, cum ar fi de exemplu Parizianu care le povesteşte celorlalţi săteni de vizita lui Moromete la băieţi, la Bucureşti. 
+
+Romanul este alcătuit din două părţi, corespunzătoare celor două volume. 
+
+### Volumul I
+Primul volum utilizează tehnica decupajului şi accelerarea gradată a timpului naraţiunii şi poate fi considerat o monografie a familiei ţărăneşti şi a satului românesc din Câmpia Dunării într-o perioadă de frământări social-istorice. 
+
+Volumul este structurat în trei părţi, cu o acţiune concentrată, care se desfăşoară pe parcursul verii, cu trei ani înaintea celui de-al doilea război mondial când „se pare că timpul era foarte răbdător cu oamenii”, în satul Siliştea-Gumeşti. 
+* **Prima parte**, de sâmbătă seara până duminică noaptea, conţine scene care ilustrează monografic viaţa rurală: cina, tăierea salcâmului, întâlnirea duminicală din fierăria lui Iocan, hora. 
+* **Partea a doua** se derulează pe parcursul a două săptămâni, începând cu plecarea lui Achim cu oile, la Bucureşti.
+* **Partea a treia**, de la seceriş până la sfârşitul verii, se încheie cu fuga băieţilor. 
+
+Cele trei părţi conferă echilibrul compoziţiei. Fiecare parte începe cu o prezentare de ansamblu: masa, prispa şi secerişul. Simetria compoziţională este dată de legătura dintre incipit şifinal la nivelul primului volum care subliniază tema timpului. La început, aparent îngăduitor, „timpul era foarte răbdător cu oamenii; viaţa se scurgea aici fără conflicte mari”, pentru ca în final să se modifice imaginea timpului, care devine necruţător şi intolerant şi „nu mai avea răbdare.”
+
+---
+
+## Conflictele din cadrul familiei Moromete
+În centrul primului volum se află figura lui Ilie Moromete şi problema paternităţii, a raporturiolor acestuia cu fiii lui, care este însă o deghizare a problemelor sociale generale. Familia Moromete este formată din Ilie Moromete, soţia sa, Catrina, trei băieţi din prima căsătorie a lui Ilie, Paraschiv, Nilă şi Achim, o fată a Catrinei, Tita, şi doi copii din a doua căsătorie, Ilinca şi Niculae. Relaţiile familiale sunt tensionate, lucru de care va profita Guica, sora lui Moromete, care îi instigă împotriva familiei şi îi convinge să fugă de acasă. Scenei de început, când familia se întoarce de la câmp, îi corespunde contrapunctic scena din final, când se produce ruptura în familia Moromete. 
+
+Familia Moromete se destramă ca urmare a producerii mai multor conflicte exterioare:
+
+1. **Cel mai important conflict exterior** este cel dintre tată şi cei trei fii ai săi din prima căsătorie, Achim, Paraschiv şi Nilă. Ilie Moromete nu poate să înţeleagă dorinţa de îmbogăţire a celor trei fii, cum nu poate să înţeleagă nici pătrunderea valorilor civilizaţiei urbane în lumea satului. Băieţii îşi dispreţuiesc tatăl fiindcă nu ştie să transforme în bani produsele agricole, aşa cum face vecinul lor, Tudor Bălosu. Acest conflict va duce pînă la urmă la dezmembrarea familiei deoarece pleacă de acasă. Oricare ar fi fost problemele materiale, Ilie Moromete găsea mijlocul să le depăşească, dar fuga băieţilor îl dezechilibrează total.
+2. **Al doilea conflict exterior** izbucneşte între Moromete şi Catrina, soţia lui. Moromete vându-se în timpul secetei un pogon din lotul soţiei, promiţându-i, în schimb, trecerea casei pe numele ei. De teama fiilor celor mari care îşi urau mama vitregă, Moromete amână îndeplinirea promisiunii. Din acestă cauză, femeia simte „cum i se strecoară în inimă nepăsarea şi sila de bărbat şi de copii”, găsindu-şi iniţial refugiul în biserică. În al doilea volum acest conflict determină decizia Catrinei de a-şi părăsi soţul, după ce află de vizita lui la Bucureşti şi de propunerea făcută celor trei fii mai mari. Această rupură va fi definitivă, Catrina refuzând să se mai întoarcă acasă.
+3. **Al treilea conflict** se desfăşoară între Moromete şi sora lui, Guica, care şi-ar fi dorit ca fratele văduv să nu se mai căsătorească şi a doua oară. În felul acesta, ea ar fi rămas în casa fratelui, să se ocupe de gospodărie şi de creşterea copiilor, pentru a nu rămâne singură la bătrâneţe. Faptul că Moromete se recăsătorise şi să îşi construise o casă departe de gospodăria ei îi aprinsese ura împotriva lui, pe care o transmite celor trei fii mai mari.
+
+---
+
+## Planurile narative și scenele esențiale (Volumul I)
+Acţiunea primului volum este structurată pe mai multe planuri narative. În prim plan se află destinul familiei Moromeţii. Ilie Moromete încearcă să păstreze întreg, cu preţul unui trai modest, pământul familiei pentru a-l transmite apoi băieţilor. Fiii cei mari nu împărtăşesc idealul tatălui deoarece ei îşi doresc independenţa economică. Ei se simt neîndreptăţiţi pentru că, după moartea mamei lor, Moromete s-a însurat cu altă femeie şi că are încă trei copii.
+
+Îndemnaţi de Guica, cei trei băieţi pun la cale un plan care va amplifica problemele econimice ale familiei. Ei intenţionează să plece la Bucureşti, fără ştirea familiei, pentru a-şi face un rost. În acest scop, vor să ia oile cumpărate printr-un împrumut la bancă şi al căror lapte constituie principala sursă de hrană a familiei şi caii, indispensabili pentru munca la câmp. Prin vânzarea oilor şi a cailor, ar obţine un capital pentru a începe viaţa la oraş. Datoria la bancă nefiind achitată, planul celor trei băieţi urmează a da o grea lovitură familiei. 
+
+Achim îi propune tatălui să-l lase să plece cu oile la Bucureşti, să la pască la marginea oraşului şi să vândă laptele şi brânza la un preţ mai bun în capitală. Moromete se lasă convins de utilitatea acestui plan, amână achitarea datoriei la bancă şi vinde o parte din lotul familiei pentru a-şi putea plăti impozitul pe pământ. Însă Achim vinde oile la Bucureşti şi aşteaptă venirea fraţilor. După amânările generate de refuzul lui Nilă de a-şi lăsa tatăl singur în preajma secerişului, cei doi fug cu caii şi cu o parte din zestrea surorilor. 
+
+Moromete este nevoit să vândă din nou o parte din pământ pentru a-şi reface gospodăria, pentru a plăti foncierea, rata la bancă şi taxele de şcolarizare ale lui Niculae. 
+
+Planurile secundare completează acţiunea romanului, conferindu-i caracterul de frescă socială: boala lui Boţoghină, revolta ţăranului sărac Ţugurlan, dragostea dintre Polina şi Birică, discuţiile din fierăria lui Iocan, rolul instituţiilor şi al autorităţilor în satul interbelic. 
+
+Câteva secvenţe narative sunt esenţiale pentru destinul familiei Moromete şi pentru conturarea conflictelor:
+
+### Scena cinei
+Scena cinei are rolul de a prezenta familia, dar şi de a sugera relaţiile tensionate dintre membrii acesteia. Ilie Moromete pare a domina o familie formată din copii proveniţi din două căsătorii, învrăjbiţi din cauza averii. Aşezarea în jurul mesei sugerează evoluţia ulterioară a conflictului, destrămarea familiei: 
+> „Cei trei fraţi vitregi, Paraschiv, Nilă şi Achim, stăteau spre partea din afară a tindei, ca şi când ar fi fost gata în orice clipă să se scoale de la masă şi să plece afară. De cealaltă parte a mesei, lângă vatră, stătea totdeauna Catrina Moromete, mama vitregă a celor trei fraţi, iar lângă ea îi avea pe Niculae şi pe Ilinca, copii făcuţi cu Moromete. Tita stătea între cei trei şi maică-sa. Era tot fata ei, din căsătoria dintâi. Numai Moromete stătea parcă deasupra tuturor. Locul lui era pragul celei de-a doua odăi, de pe care el stăpânea cu privirea la fiecare. Toţi ceilalţi stăteau umăr lângă umăr, înghesuiţi, masa fiind prea mică. Moromete n-o mai schimbase de pe vremea primei lui căsătorii, deşi numărul crescuse.”
+
+### Tăierea salcâmului
+O altă secvenţă narativă cu valoare simbolică este aceea a tăierii salcâmului. Ilie Moromete taie sacâmul pentru a plăti o parte din datoriile familie, fără a vinde pământ sau oi: 
+> „Se pare că nimeni nu înţelegea că hotărându-se în sfârşit plecarea lui Achim la Bucureşti însemna că trebuie să li se facă celor trei pe plac până la capăt, să nu se mai atingă nimeni de oi şi cum altceva n-aveau ce vinde, salcâmul trebuia tăiat. Mai ciudat era că nici cei trei în cauză nu înţelegeau; încât răspunsul lui Moromete că a tăiat salcaâmul «să se mire proştii» nu era o batjocură întâmplătoare la adresa fiilor.” 
+
+Tăierea salcâmului anticipează destrămarea familiei şi a satului tradiţional. Pentru sătenii din Siliştea-Gumeşti, salcâmul din grădina Moromeţilor era un punct de reper, el având valoarea unui arbore sacru, al unui axis mundi. Odată cu tăierea acestuia, nici timpul nu mai are nici el răbdare, astfel încât modificările din familia Moromete şi cele din plan social se succed rapid. Lumea tradiţională aşa cum şi-o imaginează personajul principal va începe procesul de destrămare. Ilie Moromete este un apărător al ordinii vechi pe care o consideră a fi cea mai bună dintre toate şi pentru care statul reprezintă o supraindividualitate abstractă. Moromete analizează schimbările din societate, dar până la un moment dat nu crede că ele pot înlocui mentalitatea ţărănească. Este luat prin surprindere de istorie şi de trecerea timpului, dar îşi apără cu tărie ideile, iluzia, demnitatea.
+
+---
+
+## Transformările sociale și politice (Volumul al II-lea)
+Al doilea volum reflectă mai bine problema deruralizării satului prin atragerea lui treptată spre civilizaţia urbană. Volumul este structurat în cinci părţi care prezintă viaţa satului într-o perioadă de un sfert de veac, de la începutul anului 1938, până spre sfârşitul anului 1962. Acţiunea se concentrează asupra a două momente istorice semnificative: reforma agrară din 1945, cu prefacerile pe care ea le aduce şi transformarea „socialistă” a agriculturii după 1949, percepută ca un fenomen abuziv. Datorită acestor schimbări rapide, satul intră într-un proces ireversibil de disoluţie. 
+
+Conflictul dintre tată şi fiii mai mari trece în planul al doilea. Conflictul principal opune mentalitatea tradiţională şi mentalitatea impusă, colectivistă. Opoziţia dintre cele două lumi este pusă în evidenţă de relaţia dintre Ilie Moromete şi fiul său, Niculae, care devin personaje-reflectoripentru cele două mentalităţi. Dacă primul volum vorbeşte despre lumea tatălui, al doilea volum face loc lumii fiilor. Vechea imagine a lui Ilie Moromete este distrusă, fiind înlocită cu o alta, lipsită de glorie. Autoritatea lui în sat se diminuează, iar unitatea distrusă a familiei nu se reface. Volumul debutează cu o întrebare retorică: „În bine sau în rău se schimbase Moromete?” 
+
+Ceilalţi ţărani îşi schimbă atitudinea faşă de el, foştii prieteni au murit sau l-au părăsit, vechile duşmănii se sting. Tudor Bălosu devine chiar binevoitor faţă de vecinul lui, iar Guica moare, fără ca relaţiile cu fratele ei să se schimbe, acesta neparticipând la înmormântarea ei. Moromete se apucă de negoţ, câştigă bani, dar îl retrage pe Niculae de la şcoală pe modemul că „nu-i aduce niciun beneficiu”. Toată energia tatălui se concentrează în încercarea de a-i aduce acasă pe băieţii fugari. De aceea cumpără pământurile pierdute odinioară şi pleacă la Bucureşti pentru a-i convinge să revină în sat, dar aceştia resping încercarea de reconciliere a tatălui său. Catrina, aflând de propunerea făcută fiilor, îl părăseşte pe Moromete şi se duce să locuiască la fiica ei. Destrămarea familiei continuă cu moartea lui Nilă în război. Fetele se căsătoresc, dar soţul Titei moare într-un accident stupid în sat. 
+
+Paralel cu procesul de destrămare a familiei, este prezentată destrămarea satului tradiţional. Relaţia dintre Ilie Moromete şi fiul mai mic, Niculae, este transpusă la nivel social, reprezentând opoziţia dintre un susţinător al clasei ţărăneşti şi un declasat al ei, conflictul dintre cei doi simbolizând conflictul dintre două concepţii despre ţăran. În acest volum observaţia socială primează, prin intermediul lui Ilie Moromete sunt analizaţi noii reprezentanţi ai statului: Bilă, Isosică, Mantaroşie, Adam Fântână, Ouăbei. Statul devine şi mai abstract în mintea ţăranului care apără valorile vechi: în primul volum statul are un reprezentant uman, Jupuitu, cu care se poate vorbi şi care îi înţelege, dar în al doilea volum acesta dispare. Reprezentantul legii le confiscă averile ţăranilor, nu îi înţelege atunci când nu au bani să plătească fonciirea. Nici măcar reprezentatntul lumii noi, Niculae, nu mai înţelege mecanismele. În discuţiile cu tatăl său, nu poate să-şi susţină opţiunile pentru că nu ştie dacă are sau nu dreptate, este la rândul lui exclus din sistem. Istoria şi schimbările aduse de aceasta îl depăşesc şi pe Niculae.
+
+---
+
+## Characterizarea personajului: ILIE MOROMETE
+Ilie Moromete este personajul central al romanului. El este capul familiei Moromete în jurul căruia se desfăşoară întreaga acţiune a primului volum. Este reprezentantul ţărănimii tradiţionale, ale cărei valori le apără cu îndârjire. Nu ni se oferă date despre felul cum arată personajul deoarece acest lucru nu are importanţă. Naratorul precizează doar că se afla înte „tinereţe şi bătrâneţe, când numai nenorociri sau bucurii mari pot schimba firea cuiva.” Accentul se pune mai ales pe capacităţile intelectuale ale personajului, datorită meditaţiilor şi concepţiilor sale despre viaţăa fost considerat de critici ţăranul filozof al literaturii române. 
+
+Portretul şi evoluţia sa sunt urmărite în raport cu familia, cu ceilalţi săteni, cu statul şi cu pământul. Este caracterizat atât de autor cât şi de celelalte personaje, dar acţiunile şi felul său de a vorbi spun cel mai mult despre Ilie Moromete. 
+
+Încă de la început Moromete este prezentat în calitatea de cap de familie în care autoritatea nu îi este contestată. Această autoritate este subliniată în scena mesei în care naratorul precizează că „Moromete stătea parcă deasupra tuturor.” Deşi relaţiile cu familia sunt tensionate, Moromete doreşte ce e mai bine pentru fiii lui, dar nu crede că acest lucru înseamnă îmbogăţirea. Simte că ceilalţi nu îl înţeleg şi atunci se izolează undeva în grădină şi vorbeşte singur. Familia realizează şi ea prăpastia dintre ea şi Moromete: „tatăl lor avea ciudatul dar de a vedea lucruri care lor le scăpau, pe care ei nu le vedeau.” Este mândru de fiul său mai mic, deşi nu îi arată, cu care va păstra o relaţie specială până în final. 
+
+Când îşi dă seama că a fost înşelat de Achim încep marile frământări interioare ale personajului. Semnificativ pentru noua stare de spirit a personajului este monologul de pe câmp în care îşi apără dreptul la seninătate: „Cum să trăieşti dacă nu eşti liniştit?”. 
+
+Este apreciat de cei din sat care îi ascultă tot timpul discursurile de duminică dimineaţa de la fierăria lui Iocan. În semn de respect, Din Vasilescu îi face din lut portretul. O trăsătură importantă pe care o subliniază naratorul este disimularea: Moromete oferă un adevărat spectacol în episodul în care vrea să-l păcălească pe Jupuitu sau în episodul în care discută cu Tudor Bălosu. Este apreciat pentru uşurinţa cu care, prin intermediul limbajului, iese din situaţii dificile. Amână plata dărilor şi pentru că nu crede cu adevărat în puterea statului, consideră că până la urmă statul ca realiza că ţăranii nu au bani şi atunci nu le va mai cere dări. Credinţa într-uneo lume care ar putea exista fără bani îi va fi zdruncinată până la sfârşitul romanului. Îi place să observe lumea care îl înconjoară şi astfel ştie comment să se poarte cu fiecare: pe Tudor Bălosu şi pe fiul acestuia îi ironizează cu fiecare ocazie, dar pe Ţugurlan îl tratează cu respect şi simpatie, iar lui Cocoşilă îi apreciază inteligenţa. 
+
+Spre deosebire de personajul Ion al lui Liviu Rebreanu, pentru ţăranul Moromete pământul nu este o obsesie, el nu doreşte mult pământ ci doar atât cât să aibă din ce trăi. Sănătatea morală nu înseamnă pentru el a avea bani ci a putea trăi senin, Moromete îşi doreşte liniştea căminului şi posibilitatea de a se bucura de micile bucurii ale vieţii. Drama lui începe în momentul în care observă că familia nu îi împărtăşeşte idealurile. Moromete nu este un ţăran obişnuit. Inteligenţa, ironia şi umorul îl deosebesc de orice personaj din romanele anterioare care tratează lumea rurală. El însuşi este un simbol, fără să vrea, pentru schimbările care se produc în acest univers: pentru Moromete este mult mai important să stea să mediteze sau să discute politică decât să muncească. 
+
+În romanul Ion a avea pământ era singurul lucru care conta pentru un ţăran, i definea personalitatea şi statutul în comunitate. În Moromeţii pământul nu mai înseamnă bogăţie, avere, putere, ci libertatea morală a individului în raporturile sale cu lumea, oferindu-i ţăranului posibilitatea de a contempla lumea şi de a medita. Este un idealist aflat în contradicţie cu noile schimbări ale societăţii care până la urmă îl vor învinge: deşi este capabil să păcălească autorităţile nu va putea păcăli şi istoria. După fuga celor doi fii începe să înţeleagă că a fost victima unei iluzii şi că lumea prietenoasă şi timpul răbdător nu există decât în capul lui. 
+
+Drama lui Moromete nu să în pierderea pământurilor ci în destrămarea familiei sale, dar aceasta anunţă drama ţărănimii în general. Destinul său se va modifica treptat după fuga băieţilor, nu va mai lua parte la întânirile din fierăria lui Iocan, nu va mai fi „centrul universului”, cum îl caracterizează niculae, relaţiile cu familia se vor degrada din ce în ce mai mult. Totuşi, până în clipa morţii îşi suţine cu tărie părerile despre adevăratele valori ale vieţii şi nu poate accepta că există o lume mai bună decât cea tradiţională. 
+
+În momentul în care moare, îi spune doctorului: „Domnule, eu totdeauna am dus o viaţă independentă!”, afiemaţie care exprimă idealul şi filozofia sa.`
+}
